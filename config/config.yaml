@@ -1,0 +1,3 @@
+database:
+  table_name: superstore_orders
+  page_size: 500

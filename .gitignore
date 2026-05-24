@@ -1,0 +1,38 @@
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/
+
+# Outputs
+output/
+*.xlsx
+
+# Logs
+logs/
+*.log
+
+# Secrets / credentials
+credentials/*.json
+
+# OS
+Thumbs.db
+Desktop.ini
