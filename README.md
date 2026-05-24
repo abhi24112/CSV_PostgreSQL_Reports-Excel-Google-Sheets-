@@ -4,7 +4,6 @@ Load a retail orders CSV into PostgreSQL, run SQL aggregations (yearly/monthly/q
 
 ## File Structure
 
-
 ```
 📁 config/ → App configuration (config.yaml)
 📁 credentials/ → Google service account key (google_service_account.json)
@@ -20,6 +19,7 @@ Load a retail orders CSV into PostgreSQL, run SQL aggregations (yearly/monthly/q
 📄 test.py → Quick CSV sanity checks
 
 ```
+
 ---
 
 ## Project Graph
@@ -112,10 +112,10 @@ QUARTERLY_SHEET_ID=1Mn79lbiXt3yU9aLTNbFYUfmkWmEaVNAU6tTJ0ry6ALA
 
 ## Setup
 
-Install dependencies (example):
+Install dependencies:
 
 ```bash
-pip install pandas psycopg2-binary python-dotenv pyyaml openpyxl gspread google-auth
+pip install -r requirements.txt
 ```
 
 > If you already use a conda env, activate it first (e.g. `conda activate mlopsenv`).
